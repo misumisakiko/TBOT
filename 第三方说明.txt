@@ -1,0 +1,2 @@
+﻿本包包含 CPython 3.13.16 Windows 64 位便携运行时，原始许可保留在 python/LICENSE.txt。官方来源与 SHA-256 见 python-provenance.json。
+桥接模组和脚本属于本项目。原版游戏名称、素材及程序的权利属于各自作者；完整游戏资源及引擎不随包分发，由接收方本地安装准备。

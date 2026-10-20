@@ -1,5 +1,7 @@
 # TBOT 0.6.8 · 原生装备、饰品与武器资源扩展
 
+这次更新中，我扩展了武器与资源使用范围，并将 Terraria 原生防具、套装和饰品能力接入以撒对局。
+
 - [完整模组与一键安装包](https://github.com/misumisakiko/TBOT/releases/download/v0.6.8/TBOT-0.6.8-Windows-x64.zip)：完整解压后运行 `一键安装.cmd`，包含首次设置。
 - [独立首次设置包](https://github.com/misumisakiko/TBOT/releases/download/v0.6.8/TBOT-FirstSetup-0.6.8-Windows-x64.zip)：供已订阅并完整下载工坊模组的玩家使用，运行 `首次设置.cmd`。
 - 同名 `.sha256` 为校验文件，Source code 自动归档不是安装包。
@@ -23,8 +25,8 @@
 
 ## 验证边界
 
-指定测试组除神圣套组外已获用户通过反馈；星尘护卫、鼠标及覆盖层修复也获确认。最新神圣护佑专项修复完成编译、17 项 Lua 回放和 7 项隔离 C#/Lua 收发检查，含 70ms 注入延迟；**真实以撒神圣闪避仍待存档 3 复测**。
+我已确认指定测试组中除神圣套组外的项目通过，以及星尘护卫、鼠标及覆盖层问题的修复。最新神圣护佑专项修复已完成编译、17 项 Lua 回放和 7 项隔离 C#/Lua 收发检查，含 70ms 注入延迟；**真实以撒神圣闪避仍待存档 3 复测**。
 
-不将隔离验证算作实机通过，不宣称所有装备特殊效果或所有场景稳定 60 FPS。其他电脑、工坊订阅更新及性能边界单独验收。
+我不会把隔离验证算作实机通过，也不宣称所有装备特殊效果或所有场景稳定 60 FPS。其他电脑、工坊订阅更新及性能边界单独验收。
 
-本发行保持私人仓库 **Pre-release**。工坊 [3819700056](https://steamcommunity.com/sharedfiles/filedetails/?id=3819700056) 由作者手动上传，沿用原可见性。程序开发与调试使用 OpenAI Codex（GPT-6）辅助；第三方许可见包内说明。
+本次发行标记为 **Pre-release**。工坊 [3819700056](https://steamcommunity.com/sharedfiles/filedetails/?id=3819700056) 由我手动上传。程序开发与调试使用 OpenAI Codex（GPT-6）辅助；第三方许可见包内说明。
